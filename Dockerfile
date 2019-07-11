@@ -1,4 +1,4 @@
-FROM java
+FROM cargo.caicloudprivatetest.com/qatest/java 
 
 # change path to your repo dir
 COPY . /var/www/java  
